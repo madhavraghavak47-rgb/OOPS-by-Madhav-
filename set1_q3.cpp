@@ -1,3 +1,4 @@
+//factorial of number using recursion
 #include <iostream>
 using namespace std;
 int fact(int n){
