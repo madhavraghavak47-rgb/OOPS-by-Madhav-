@@ -29,6 +29,7 @@ int main(){
             rollno+=text[i];
              i++;
         };
+        rollno.erase(rollno.length()-1);
         all_rollno.push_back(rollno);
     };
 
