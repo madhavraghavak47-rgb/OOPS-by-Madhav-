@@ -4,8 +4,7 @@ int main(){
     int number , reversed_number = 0 , remainder;
     cout<<"enter the number";
     cin>>number ;
-    int original_number = number ; // Store the original number1  
-    while(number!=0){
+    int original_number = number ;
         remainder= number%10;
         reversed_number = reversed_number*10 + remainder ;
         number/=10 ;
